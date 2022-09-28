@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.anclas {
+  color: #F6F0EC;
+}
+.anclas .kart {
+  font-size: 20px;
+}
+
+.anclas:hover {
+  color: whitesmoke;
+}
+
+.album {
+  height: 400px;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background: #A21215;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #5A0102;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #5A0102;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #292f66;
+  justify-content: center;
+}
+footer .anchoFooter {
+  margin-top: 35px;
+}
+footer .anchoFooter .correo {
+  display: flex;
+}
+footer .anchoFooter .correo .bi-envelope {
+  color: white;
+  font-size: 30px;
+}
+footer .anchoFooter .correo .bi-envelope:hover {
+  color: whitesmoke;
+}
+footer .anchoFooter .redes {
+  display: flex;
+  justify-content: center;
+}
+footer .anchoFooter .redes .bi-facebook {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .anchoFooter .redes .bi-instagram {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .anchoFooter .redes .bi-whatsapp {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer .anchoFooter .redes .bi-tiktok {
+  color: white;
+  font-size: 30px;
+  margin-right: 5px;
+}
+footer .anchoFooter .bi-whatsapp:hover {
+  color: #25d366;
+}
+footer .anchoFooter .bi-facebook:hover {
+  color: #1877f2;
+}
+footer .anchoFooter .bi-instagram:hover {
+  color: #5851db;
+}
+footer .anchoFooter .bi-tiktok:hover {
+  color: #010101;
+}
+footer .mapa {
+  display: flex;
+  justify-content: end;
+}
+footer .mapa .bi-geo-alt {
+  color: white;
+  font-size: 30px;
+}
+footer .mapa .bi-geo-alt:hover {
+  color: C43C2C;
+}/*# sourceMappingURL=styles.css.map */
